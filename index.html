@@ -38,7 +38,7 @@
 
 
         window.sendToUnity = function(message) {
-          unityInstance.SendMessage('WebMessageReceiver', 'get_signal', message);
+          unityInstance.SendMessage('manager', 'get_signal', message);
         };
       });
     </script>
